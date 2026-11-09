@@ -30,3 +30,11 @@ npm run preview
 Three.js、GLSL 和 Vite。玻璃效果基于 [Johnlzx/glass-garden](https://github.com/Johnlzx/glass-garden) 的代码改编，增加照片切换、中文与英文控制、独立照片取景等调整。
 
 照片资源为此个人项目提供。
+
+## GitHub Pages
+
+已经生成 `docs/` 静态网页。在仓库 Settings → Pages 中选择 **Deploy from a branch → main → /docs**，保存后即可部署。
+
+预期网址：`https://yuxuandu7-spec.github.io/light-slices/`（需要先启用 Pages）。
+
+以后修改源码时，运行 `npm run build`，再用 `dist/` 内容更新 `docs/`。
